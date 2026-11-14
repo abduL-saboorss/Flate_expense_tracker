@@ -1,0 +1,108 @@
+D:\house_expense_tracker\gradle\wrapper\gradle-wrapper.properties:3: Warning: A newer version of Gradle than 8.14 is available: 8.14.7 [AndroidGradlePluginVersion]
+distributionUrl=https\://services.gradle.org/distributions/gradle-8.14-bin.zip
+                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+D:\house_expense_tracker\gradle\libs.versions.toml:2: Warning: A newer version of com.android.application than 8.13.1 is available: 9.5.1. (There is also a newer version of 8.13.𝑥 available, if upgrading to 9.5.1 is difficult: 8.13.2) [AndroidGradlePluginVersion]
+agp = "8.13.1"
+      ~~~~~~~~
+
+   Explanation for issues of type "AndroidGradlePluginVersion":
+   This detector looks for usage of the Android Gradle Plugin where the
+   version you are using is not the current stable release. Using older
+   versions is fine, and there are cases where you deliberately want to stick
+   with an older version. However, you may simply not be aware that a more
+   recent version is available, and that is what this lint check helps find.
+
+D:\house_expense_tracker\gradle\libs.versions.toml:5: Warning: A newer version of androidx.room:room-compiler than 2.8.3 is available: 2.8.5 [GradleDependency]
+room = "2.8.3"
+       ~~~~~~~
+D:\house_expense_tracker\gradle\libs.versions.toml:5: Warning: A newer version of androidx.room:room-ktx than 2.8.3 is available: 2.8.5 [GradleDependency]
+room = "2.8.3"
+       ~~~~~~~
+D:\house_expense_tracker\gradle\libs.versions.toml:5: Warning: A newer version of androidx.room:room-runtime than 2.8.3 is available: 2.8.5 [GradleDependency]
+room = "2.8.3"
+       ~~~~~~~
+D:\house_expense_tracker\gradle\libs.versions.toml:5: Warning: A newer version of androidx.room:room-testing than 2.8.3 is available: 2.8.5 [GradleDependency]
+room = "2.8.3"
+       ~~~~~~~
+D:\house_expense_tracker\gradle\libs.versions.toml:6: Warning: A newer version of androidx.compose:compose-bom than 2025.10.01 is available: 2026.09.00 [GradleDependency]
+compose = "2025.10.01"
+          ~~~~~~~~~~~~
+D:\house_expense_tracker\gradle\libs.versions.toml:16: Warning: A newer version of androidx.activity:activity-compose than 1.11.0 is available: 1.13.0 [GradleDependency]
+activity = { module = "androidx.activity:activity-compose", version = "1.11.0" }
+                                                                      ~~~~~~~~
+D:\house_expense_tracker\gradle\libs.versions.toml:17: Warning: A newer version of androidx.navigation:navigation-compose than 2.9.5 is available: 2.10.2 [GradleDependency]
+navigation = { module = "androidx.navigation:navigation-compose", version = "2.9.5" }
+                                                                            ~~~~~~~
+D:\house_expense_tracker\gradle\libs.versions.toml:18: Warning: A newer version of androidx.lifecycle:lifecycle-runtime-compose than 2.9.4 is available: 2.11.0 [GradleDependency]
+lifecycle = { module = "androidx.lifecycle:lifecycle-runtime-compose", version = "2.9.4" }
+                                                                                 ~~~~~~~
+D:\house_expense_tracker\gradle\libs.versions.toml:19: Warning: A newer version of androidx.lifecycle:lifecycle-viewmodel-compose than 2.9.4 is available: 2.11.0 [GradleDependency]
+viewmodel = { module = "androidx.lifecycle:lifecycle-viewmodel-compose", version = "2.9.4" }
+                                                                                   ~~~~~~~
+D:\house_expense_tracker\gradle\libs.versions.toml:24: Warning: A newer version of androidx.datastore:datastore-preferences than 1.1.7 is available: 1.3.0 [GradleDependency]
+datastore = { module = "androidx.datastore:datastore-preferences", version = "1.1.7" }
+                                                                             ~~~~~~~
+
+   Explanation for issues of type "GradleDependency":
+   This detector looks for usages of libraries where the version you are using
+   is not the current stable release. Using older versions is fine, and there
+   are cases where you deliberately want to stick with an older version.
+   However, you may simply not be aware that a more recent version is
+   available, and that is what this lint check helps find.
+
+D:\house_expense_tracker\app\src\main\res\values\strings.xml:7: Warning: The resource R.string.start appears to be unused [UnusedResources]
+    <string name="my_name">My Name</string><string name="household_name">Household Name</string><string name="extra_members">Other members (one name per line)</string><string name="start">Create my ledger</string><string name="offline">On this device · PKR · Works offline</string>
+                                                                                                                                                                               ~~~~~~~~~~~~
+D:\house_expense_tracker\app\src\main\res\values\strings.xml:10: Warning: The resource R.string.archive appears to be unused [UnusedResources]
+    <string name="amount">Amount (PKR)</string><string name="title">What was it for?</string><string name="date">Date (YYYY-MM-DD)</string><string name="category">Category</string><string name="payer">Who paid?</string><string name="participants">Who shares it?</string><string name="select_all">Select All Active Members</string><string name="split">Split method</string><string name="equal">Equal split</string><string name="exact">Exact amounts</string><string name="percentage">Percentages</string><string name="percent_field">%1$s — percent</string><string name="share_field">%1$s — amount</string><string name="review">Review and Save</string><string name="share_row">%1$s: %2$s</string><string name="paid_by">Paid by %1$s</string><string name="total">Total</string><string name="optional_note">Add / review optional note</string><string name="note">Note (optional)</string><string name="name">Name</string><string name="archive">Archive</string><string name="reactivate">Reactivate</string><string name="archived">Archived</string><string name="active">Active</string><string name="you">You</string><string name="sender">From (sender / lender)</string><string name="receiver">To (receiver / borrower)</string><string name="record_type">Record type</string><string name="apply_to">Apply payment to</string><string name="oldest">Oldest eligible bill first</string><string name="select_loan">Select a specific loan</string><string name="allocation">Payment allocation</string><string name="remaining">Remaining</string><string name="original">Original</string><string name="paid">Paid</string><string name="all">All</string><string name="search">Search title or note</string><string name="from_date">From date (optional)</string><string name="to_date">To date (optional)</string><string name="clear_filters">Clear filters</string><string name="filter">Filters</string><string name="history">Activity and payments</string>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         ~~~~~~~~~~~~~~
+D:\house_expense_tracker\app\src\main\res\values\strings.xml:10: Warning: The resource R.string.reactivate appears to be unused [UnusedResources]
+    <string name="amount">Amount (PKR)</string><string name="title">What was it for?</string><string name="date">Date (YYYY-MM-DD)</string><string name="category">Category</string><string name="payer">Who paid?</string><string name="participants">Who shares it?</string><string name="select_all">Select All Active Members</string><string name="split">Split method</string><string name="equal">Equal split</string><string name="exact">Exact amounts</string><string name="percentage">Percentages</string><string name="percent_field">%1$s — percent</string><string name="share_field">%1$s — amount</string><string name="review">Review and Save</string><string name="share_row">%1$s: %2$s</string><string name="paid_by">Paid by %1$s</string><string name="total">Total</string><string name="optional_note">Add / review optional note</string><string name="note">Note (optional)</string><string name="name">Name</string><string name="archive">Archive</string><string name="reactivate">Reactivate</string><string name="archived">Archived</string><string name="active">Active</string><string name="you">You</string><string name="sender">From (sender / lender)</string><string name="receiver">To (receiver / borrower)</string><string name="record_type">Record type</string><string name="apply_to">Apply payment to</string><string name="oldest">Oldest eligible bill first</string><string name="select_loan">Select a specific loan</string><string name="allocation">Payment allocation</string><string name="remaining">Remaining</string><string name="original">Original</string><string name="paid">Paid</string><string name="all">All</string><string name="search">Search title or note</string><string name="from_date">From date (optional)</string><string name="to_date">To date (optional)</string><string name="clear_filters">Clear filters</string><string name="filter">Filters</string><string name="history">Activity and payments</string>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                ~~~~~~~~~~~~~~~~~
+D:\house_expense_tracker\app\src\main\res\values\strings.xml:10: Warning: The resource R.string.you appears to be unused [UnusedResources]
+    <string name="amount">Amount (PKR)</string><string name="title">What was it for?</string><string name="date">Date (YYYY-MM-DD)</string><string name="category">Category</string><string name="payer">Who paid?</string><string name="participants">Who shares it?</string><string name="select_all">Select All Active Members</string><string name="split">Split method</string><string name="equal">Equal split</string><string name="exact">Exact amounts</string><string name="percentage">Percentages</string><string name="percent_field">%1$s — percent</string><string name="share_field">%1$s — amount</string><string name="review">Review and Save</string><string name="share_row">%1$s: %2$s</string><string name="paid_by">Paid by %1$s</string><string name="total">Total</string><string name="optional_note">Add / review optional note</string><string name="note">Note (optional)</string><string name="name">Name</string><string name="archive">Archive</string><string name="reactivate">Reactivate</string><string name="archived">Archived</string><string name="active">Active</string><string name="you">You</string><string name="sender">From (sender / lender)</string><string name="receiver">To (receiver / borrower)</string><string name="record_type">Record type</string><string name="apply_to">Apply payment to</string><string name="oldest">Oldest eligible bill first</string><string name="select_loan">Select a specific loan</string><string name="allocation">Payment allocation</string><string name="remaining">Remaining</string><string name="original">Original</string><string name="paid">Paid</string><string name="all">All</string><string name="search">Search title or note</string><string name="from_date">From date (optional)</string><string name="to_date">To date (optional)</string><string name="clear_filters">Clear filters</string><string name="filter">Filters</string><string name="history">Activity and payments</string>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           ~~~~~~~~~~
+D:\house_expense_tracker\app\src\main\res\values\strings.xml:16: Warning: The resource R.string.all_activity appears to be unused [UnusedResources]
+    <string name="csv_header">Section,Date,Title,Category,From,To,Amount PKR,Original PKR,Paid PKR,Remaining PKR</string><string name="csv_personal">Personal</string><string name="csv_household">Household</string><string name="csv_transfer">Transfer</string><string name="csv_bill_balance">Outstanding bill</string><string name="csv_loan_balance">Outstanding loan</string><string name="csv_summary">Summary</string><string name="all_activity">All household activity</string><string name="no_members">Add members in Settings to share bills.</string><string name="share_total">Shares total: %1$s</string><string name="percent_total">Percentages total: %1$s%%</string><string name="form_locked">Linked payments exist. You can edit the title, category or note. Remove or adjust payments before changing financial details.</string><string name="member_note">Member notes stay private.</string><string name="refresh_share">Messages always use the latest saved record. Review and share a correction after editing.</string>
+                                                                                                                                                                                                                                                                                                                                                                                                                                       ~~~~~~~~~~~~~~~~~~~
+D:\house_expense_tracker\app\src\main\res\values\strings.xml:16: Warning: The resource R.string.member_note appears to be unused [UnusedResources]
+    <string name="csv_header">Section,Date,Title,Category,From,To,Amount PKR,Original PKR,Paid PKR,Remaining PKR</string><string name="csv_personal">Personal</string><string name="csv_household">Household</string><string name="csv_transfer">Transfer</string><string name="csv_bill_balance">Outstanding bill</string><string name="csv_loan_balance">Outstanding loan</string><string name="csv_summary">Summary</string><string name="all_activity">All household activity</string><string name="no_members">Add members in Settings to share bills.</string><string name="share_total">Shares total: %1$s</string><string name="percent_total">Percentages total: %1$s%%</string><string name="form_locked">Linked payments exist. You can edit the title, category or note. Remove or adjust payments before changing financial details.</string><string name="member_note">Member notes stay private.</string><string name="refresh_share">Messages always use the latest saved record. Review and share a correction after editing.</string>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ~~~~~~~~~~~~~~~~~~
+D:\house_expense_tracker\app\src\main\res\values\strings.xml:16: Warning: The resource R.string.no_members appears to be unused [UnusedResources]
+    <string name="csv_header">Section,Date,Title,Category,From,To,Amount PKR,Original PKR,Paid PKR,Remaining PKR</string><string name="csv_personal">Personal</string><string name="csv_household">Household</string><string name="csv_transfer">Transfer</string><string name="csv_bill_balance">Outstanding bill</string><string name="csv_loan_balance">Outstanding loan</string><string name="csv_summary">Summary</string><string name="all_activity">All household activity</string><string name="no_members">Add members in Settings to share bills.</string><string name="share_total">Shares total: %1$s</string><string name="percent_total">Percentages total: %1$s%%</string><string name="form_locked">Linked payments exist. You can edit the title, category or note. Remove or adjust payments before changing financial details.</string><string name="member_note">Member notes stay private.</string><string name="refresh_share">Messages always use the latest saved record. Review and share a correction after editing.</string>
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "UnusedResources":
+   Unused resources make applications larger and slow down builds.
+
+
+   The unused resource check can ignore tests. If you want to include
+   resources that are only referenced from tests, consider packaging them in a
+   test source set instead.
+
+   You can include test sources in the unused resource check by setting the
+   system property lint.unused-resources.include-tests =true, and to exclude
+   them (usually for performance reasons), use
+   lint.unused-resources.exclude-tests =true.
+   ,
+
+   Available options:
+
+   **skip-libraries** (default is true):
+   Whether the unused resource check should skip reporting unused resources in libraries.
+
+   Many libraries will declare resources that are part of the library surface; other modules depending on the library will also reference the resources. To avoid reporting all these resources as unused (in the context of a library), the unused resource check normally skips reporting unused resources in libraries. Instead, run the unused resource check on the consuming app module (along with `checkDependencies=true`).
+
+   However, there are cases where you want to check that all the resources declared in a library are used; in that case, you can disable the skip option.
+
+   To configure this option, use a `lint.xml` file with an <option> like this:
+
+   ```xml
+   <lint>
+       <issue id="UnusedResources">
+           <option name="skip-libraries" value="true" />
+       </issue>
+   </lint>
+   ```
+
+0 errors, 19 warnings

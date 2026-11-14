@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.houseledger.app.AccountingTest" tests="22" skipped="0" failures="0" errors="0" timestamp="2026-11-14T12:45:52.345Z" hostname="DESKTOP-011GPJ6" time="0.411">
+  <properties/>
+  <testcase name="corruptAndOverallocatedBackupsRejected" classname="com.houseledger.app.AccountingTest" time="0.253"/>
+  <testcase name="invalidSplitsRejected" classname="com.houseledger.app.AccountingTest" time="0.001"/>
+  <testcase name="overpaymentRejected" classname="com.houseledger.app.AccountingTest" time="0.0"/>
+  <testcase name="laterPaymentsDoNotChangeEarlierMonthEnd" classname="com.houseledger.app.AccountingTest" time="0.003"/>
+  <testcase name="backupRoundTrip" classname="com.houseledger.app.AccountingTest" time="0.091"/>
+  <testcase name="backupRejectsInvalidReferencesAndVersion" classname="com.houseledger.app.AccountingTest" time="0.015"/>
+  <testcase name="partialPaymentAndDeletion" classname="com.houseledger.app.AccountingTest" time="0.001"/>
+  <testcase name="percentagesHandleMaximumWithoutOverflow" classname="com.houseledger.app.AccountingTest" time="0.009"/>
+  <testcase name="paymentBeforeBillRejected" classname="com.houseledger.app.AccountingTest" time="0.002"/>
+  <testcase name="percentagesUseIntegerRemainders" classname="com.houseledger.app.AccountingTest" time="0.0"/>
+  <testcase name="backupRequiresSavedIdsAndAuditTimes" classname="com.houseledger.app.AccountingTest" time="0.002"/>
+  <testcase name="oldestBillAllocation" classname="com.houseledger.app.AccountingTest" time="0.001"/>
+  <testcase name="payerOutsideParticipants" classname="com.houseledger.app.AccountingTest" time="0.001"/>
+  <testcase name="decimalParsingIsExact" classname="com.houseledger.app.AccountingTest" time="0.009"/>
+  <testcase name="zeroPercentGetsNoRemainder" classname="com.houseledger.app.AccountingTest" time="0.0"/>
+  <testcase name="loanAndRepaymentSeparateFromBills" classname="com.houseledger.app.AccountingTest" time="0.002"/>
+  <testcase name="transfersBetweenOthersDoNotAffectMyCash" classname="com.houseledger.app.AccountingTest" time="0.0"/>
+  <testcase name="equalRemainderStable" classname="com.houseledger.app.AccountingTest" time="0.0"/>
+  <testcase name="rejectsExtraDecimalsAndExponent" classname="com.houseledger.app.AccountingTest" time="0.001"/>
+  <testcase name="householdCostAndCashAreSeparate" classname="com.houseledger.app.AccountingTest" time="0.001"/>
+  <testcase name="otherTransferDoesNotChangeDebts" classname="com.houseledger.app.AccountingTest" time="0.001"/>
+  <testcase name="archivedMembersKeepObligations" classname="com.houseledger.app.AccountingTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
